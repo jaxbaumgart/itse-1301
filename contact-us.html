@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57"
+        href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Contact Us</title>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">Home</a> | <a href="blog.html">Blog</a> | <a
+          href="faq.html">FAQ</a> | <a href="gallery.html">Gallery</a> | <a
+          href="contact-us.html">Contact Us</a>
+  </nav>
+  <h1>Contact Us</h1>
+</header>
+<main>
+  <fieldset>
+    <legend>Use this form to contact us.</legend>
+    <form id="contact" action="mailto:JBaumgart@student.dallascollege.edu"
+          method="get">
+      <h3>Your Information</h3>
+      <p>
+        <label title="Enter your last name."> Last Name
+          <input type="text" name="lastname"></label>
+      </p>
+      <p>
+        <label title="Enter your first name."> First Name <input type="text"
+                                                                name="firstname"></label>
+      </p>
+      <p>
+        <label title="Enter your email address."> Email Address <input
+                type="text" name="email"></label>
+      </p>
+      <p>
+        <label title="Enter your phone number."> Phone Number <input
+                type="text" name="phone"></label>
+      </p>
+      <h3>Your Message</h3>
+      <p>
+        Is a response required?
+        <br>
+        <label title="Should we contact you?"><input type="checkbox"
+                                                     name="contact-me"> Yes
+        </label>
+      </p>
+      <p>
+        How should we contact you?
+        <br>
+        <label title="Select for email response."> Email <input type="radio"
+                                                                name="request"></label>
+        <br>
+        <label title="Select for phone respose."> Phone <input type="radio"
+                                                         name="request"></label>
+      </p>
+      <p>
+        <label title="Select type of comment.">What type of comment is
+          this?
+        <select name="commenttype">
+          <option value="">Select</option>
+          <option value="1">General Question</option>
+          <option value="2">Request for More Information</option>
+          <option value="3">Factual Error</option>
+          <option value="4">Website Error</option>
+          <option value="5">Other</option>
+        </select>
+        </label>
+      </p>
+      <p>
+        <label title="message">Your Message<br>
+          <textarea name="message"></textarea></label>
+      </p>
+      <input type="submit" name="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </fieldset>
+</main>
+<footer>
+  <a href="https://www.dallascollege.edu">Dallas College Homepage</a> | <a
+        href ="mailto:JBaumgart@student.dallascollege.edu">Webmaster</a>
+</footer>
+</body>
+</html>

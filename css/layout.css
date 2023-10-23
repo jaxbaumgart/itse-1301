@@ -1,0 +1,36 @@
+.main-article {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 25px;
+    width: 80%;
+}
+
+.image {
+    display: block;
+    width: 10%;
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-color: #094067;
+    border-width: 2px;
+    border-style: dot-dash;
+    clear: both;
+}
+
+.figcaption-1 {
+    text-align: center;
+    width: 300px;
+    clear: both;
+}
+
+.figcaption-2 {
+    text-align: center;
+    width: 200px;
+    clear: both;
+}
+
+.logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}

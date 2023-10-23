@@ -120,3 +120,9 @@ thead tr {
 tbody tr:hover {
     background-color: lightgreen;
 }
+
+figcaption {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    color: #5f6c7b;
+}

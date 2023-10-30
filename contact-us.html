@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/nav-menu.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="apple-touch-icon" sizes="57x57"
         href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -41,48 +42,52 @@
   <h1>Contact Us</h1>
 </header>
 <main>
-  <fieldset>
+  <fieldset class="w3-container">
     <legend>Use this form to contact us.</legend>
     <form id="contact" action="mailto:JBaumgart@student.dallascollege.edu"
           method="get">
       <h3>Your Information</h3>
       <p>
         <label title="Enter your last name."> Last Name
-          <input type="text" name="lastname"></label>
+          <input type="text" name="lastname" class="w3-input w3-border
+                 w3-round"></label>
       </p>
       <p>
         <label title="Enter your first name."> First Name <input type="text"
-                                                                name="firstname"></label>
+                                                                name="firstname" class="w3-input w3-border
+                 w3-round"></label>
       </p>
       <p>
         <label title="Enter your email address."> Email Address <input
-                type="text" name="email"></label>
+                type="text" name="email" class="w3-input w3-border
+                 w3-round"></label>
       </p>
       <p>
         <label title="Enter your phone number."> Phone Number <input
-                type="text" name="phone"></label>
+                type="text" name="phone" class="w3-input w3-border
+                 w3-round"></label>
       </p>
       <h3>Your Message</h3>
       <p>
         Is a response required?
         <br>
         <label title="Should we contact you?"><input type="checkbox"
-                                                     name="contact-me"> Yes
+                                                     name="contact-me" class="w3-check"> Yes
         </label>
       </p>
       <p>
         How should we contact you?
         <br>
         <label title="Select for email response."> Email <input type="radio"
-                                                                name="request"></label>
+                                                                name="request" class="w3-radio"></label>
         <br>
         <label title="Select for phone respose."> Phone <input type="radio"
-                                                         name="request"></label>
+                                                         name="request" class="w3-radio"></label>
       </p>
       <p>
         <label title="Select type of comment.">What type of comment is
           this?
-        <select name="commenttype">
+        <select name="commenttype" class="w3-select w3-border">
           <option value="">Select</option>
           <option value="1">General Question</option>
           <option value="2">Request for More Information</option>
@@ -94,9 +99,10 @@
       </p>
       <p>
         <label title="message">Your Message<br>
-          <textarea name="message"></textarea></label>
+          <textarea name="message" class="w3-input w3-border
+                 w3-round"></textarea></label>
       </p>
-      <input type="submit" name="submit" value="Submit">
+      <input type="submit" name="submit" value="Submit" >
       <input type="reset" value="Reset">
     </form>
   </fieldset>
